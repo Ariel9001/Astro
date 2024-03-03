@@ -1,0 +1,12 @@
+---
+import HomeLayaout from "../layouts/Home-layout.astro";
+import NavBarsTSX from "../components/main-components/Navbars.jsx";
+import FooterTSX from "../components/main-components/Footer.jsx";
+import HomeTSX from "../components/home.jsx";
+---
+
+<HomeLayaout title="Panel">
+    <NavBarsTSX name="Panel" client:load />
+    <HomeTSX />
+    <FooterTSX />
+</HomeLayaout>
